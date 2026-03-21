@@ -1,0 +1,76 @@
+🏋️ IronFit Gym Management System
+🚀 FastAPI Backend Project
+📌 Project Overview
+
+IronFit Gym Management System is a backend API built using FastAPI to efficiently manage gym operations such as membership plans, enrollments, and class bookings.
+
+This project was developed as part of internship training at Innomatics Research Labs, focusing on real-world backend development concepts like API design, validation, workflows, and advanced querying.
+
+✨ Key Features
+🧾 Plan Management
+View all gym plans
+Get plan details by ID
+Add new plans with validation
+Update plan details dynamically
+Delete plans with business rule checks
+Plan summary insights (cheapest, expensive, features)
+👤 Membership Management
+Enroll new members
+Auto fee calculation with discounts
+Referral-based discount system
+View all memberships
+Search, sort, and paginate memberships
+Freeze and reactivate memberships
+🧘 Class Booking System
+Book gym classes
+Validate membership eligibility
+View all bookings
+Cancel bookings easily
+🔍 Advanced API Features
+🔎 Search (case-insensitive, smart keywords)
+🔃 Sorting (price, duration, name)
+📄 Pagination (page & limit)
+🎯 Filtering (price, duration, trainer, classes)
+⚡ Combined Browse API (search + filter + sort + pagination)
+🛠 Tech Stack
+🐍 Python
+⚡ FastAPI
+📦 Pydantic (Data validation)
+🚀 Uvicorn (ASGI server)
+▶️ How to Run
+python -m venv venv
+venv\Scripts\activate
+pip install fastapi uvicorn
+uvicorn main:app --reload
+🧪 API Testing
+
+All APIs were tested using Swagger UI:
+
+👉 http://127.0.0.1:8000/docs
+
+✔ Covers all endpoints from basic to advanced
+✔ Includes validation and edge-case testing
+
+✅ Project Status
+
+✔ Completed
+✔ Fully Tested
+✔ Ready for Submission
+
+🏷 Project Name
+
+IronFit Gym Management System
+
+📦 What I Built
+
+A complete backend system to manage gym plans, memberships, and class bookings using FastAPI with real-world features like validation, workflows, and advanced querying.
+
+⚙️ Key FastAPI Features
+RESTful API design
+Pydantic-based validation
+CRUD operations
+Business logic with helper functions
+Workflow APIs (booking, freeze, reactivate)
+Filtering, sorting, pagination
+Combined query endpoint
+Error handling using HTTPException
